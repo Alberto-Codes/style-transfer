@@ -1,0 +1,16 @@
+{
+    "name": "Streamlit",
+    "image": "python:3.10",
+    "forwardPorts": [8501, 5678],
+    "postStartCommand": "pip install pip --upgrade && pip install pipenv && pipenv install --dev",
+    "extensions": [
+		"ms-python.python",
+		"ms-python.black-formatter",
+		"ms-python.isort",
+		"ms-python.vscode-pylance",
+		"GitHub.vscode-pull-request-github",
+		"GitHub.copilot",
+		"GitHub.copilot-chat",
+		"eamodio.gitlens"
+	]
+  }
