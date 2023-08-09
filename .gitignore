@@ -1,3 +1,7 @@
+# test pictures
+*.jpg
+# Downloaded models
+*.t7
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
